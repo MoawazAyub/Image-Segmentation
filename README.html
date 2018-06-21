@@ -1,0 +1,44 @@
+<h1>Image Segmentation</h1>
+
+This project performs Image Segmentation.
+<h1>How to get started:</h1>
+Load the .sln file in visual studio to run the project.  <br>
+class Pixel Structure:
+<br>
+<div style="background-color:#c3eef7;margin:40px;padding:4px">
+<code >
+ class Pixel<br>
+    {<br>
+        public int PixelRow;<br>
+        public int PixelCol;<br><br>
+
+        public Pixel<br>
+        {<br>
+            PixelRow = 0;<br>
+            PixelCol = 0;<br>
+        }<br><br>
+
+        public Pixel(int row,int col)<br>
+        {<br>
+            PixelRow = row;<br>
+            PixelCol = col;<br><br>
+
+        }<br><br>
+
+        
+    }<br>
+.</code>
+	</div>
+	<br>
+	"DoOpenCv" is the function for Image Segmentation it takes eight parametes.<br>
+First parameter is the threshold that you want to use for segmentation.<br>
+Second and third parameter are the coordinate in the image where you want to start segmentation.<br>
+The fourth parameter is the time for example after for how much time you want the changes to remain displayed on the screen.<br>
+The Fifth parameter is the label that you will place in the Segmented image to identify the segments.<br>
+The sixth parameter is the image that you will use to store result of segmentation.<br>
+The seventh parameter is used to state weather sixth parameter should be used or not.<br>
+The eight parameter is used to initilize the output matrix of segmented image if we do not wish to use sixth parameter.<br>	
+<h1>License:</h1>
+
+Feel free to do whatever you want with it.
+
